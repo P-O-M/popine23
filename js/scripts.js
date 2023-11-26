@@ -189,11 +189,10 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Une seconde!</strong> Nous enregistrons vos informations.'));
 
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Désolé!</strong> Votre code invité est mauvais.'));
+        if (MD5($('#invite_code').val()) !== '56b2db5afb5da03ed0eded5b62960483') {
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>Perdu !</strong> Votre code invité est mauvais. Il commence par un p et fini par un e'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbyn8XZglY1vp52D9PdRtt_zOjpN8Xdiz7qUWqRxkrzHsBMcrX5P_1raitNbafPDBV048w/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbz_xqc48piBjKcGTXh6CDaVmgiPKfrcLf3Ock91MJ1eC_CVWam6E0eoZu6EmgsizOg1zA/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
@@ -205,7 +204,7 @@ $(document).ready(function () {
                 })
                 .fail(function (data) {
                     console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Désolé!</strong> Il y a un problème avec le serveur. '));
+                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Désolé!</strong> Il y a un problème. Prévenez Pierre-Olivier.'));
                 });
         }
     });
