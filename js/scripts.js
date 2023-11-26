@@ -162,20 +162,20 @@ $(document).ready(function () {
             title: "Mariage de Philippine & Pierre-Olivier",
 
             // Event start date
-            start: new Date('June 20, 2023 14:00'),
+            start: new Date('April 20, 2024 15:30'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('June 21, 2023 14:00'),
+            end: new Date('April 21, 2024 14:00'),
 
             // Event Address
             address: 'Château de Garde, 3 Garde, 33420 Moulon',
 
             // Event Description
-            description: "Nous sommes impatient de vous retrouver. Contactez nous si vous avez des questions sur l'organisation, Philippine 0670993648 & Pierre-Olivier 0658064680."
+            description: "Nous sommes impatient de vous retrouver. Contactez nous si vous avez des questions sur l'organisation, Philippine 0670993648 \& Pierre-Olivier 0658064680."
         }
     });
 
