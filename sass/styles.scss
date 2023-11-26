@@ -54,7 +54,7 @@ ul li {
   list-style: none;
 }
 section .header {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .section-padding {
   padding: $section-padding;
@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/hero-min.jpg') top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -296,7 +296,7 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(16, 30, 107, 0.88);
+  background-color: #e8ca6f99;
   z-index: 999;
   width: 100%;
 }

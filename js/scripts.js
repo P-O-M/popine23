@@ -175,7 +175,7 @@ $(document).ready(function () {
             address: 'Château de Garde, 3 Garde, 33420 Moulon',
 
             // Event Description
-            description: "Nous sommes impatient de vous retrouver. Contactez nous si vous avez des questions sur l'organisation, Philippine 0670993648 \& Pierre-Olivier 0658064680."
+            description: "Nous sommes impatient de vous retrouver. Contactez nous si vous avez des questions sur l'organisation, Philippine 0670993648 et Pierre-Olivier 0658064680."
         }
     });
 
