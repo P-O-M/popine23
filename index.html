@@ -80,7 +80,6 @@
                             <li class="hidden-sm hidden-xs"><a href="#video-bg">Le lieu</a></li>
                         </ul>
                         <ul class="member-actions">
-                            <li><a href="#map" class="login">Itinéraire</a></li>
                             <li><a href="#rsvp" class="btn-white btn-small">Votre réponse</a></li>
                         </ul>
                     </nav>
@@ -95,10 +94,10 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="hero-content text-center">
-                    <!--<h1>Ram and Antara</h1>-->
-                    <img src="img/logo-lg.png">
-                    <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
-                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                    <h1 class="black">Philippine & Pierre-Olivier</h1>
+                    <!-- <img src="img/chateau_de_garde_alpha.png"> -->
+                    <!-- <p class="intro">Ram & Antara are getting hitched!</p> -->
+                    <!-- <a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
                 </div>
             </div>
         </div>
@@ -310,7 +309,12 @@
         <h3>Comment y aller ?</h3>
         <p>C'est tout droit !</p>
     </div>
-    <div id="map-canvas"></div>
+    <!-- <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.21804999926957394%2C44.817404519488804%2C-0.214702602418988%2C44.81869259429604&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/44.81805/-0.21638">Afficher une carte plus grande</a></small> -->
+    <div  class="row text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.068847632115!2d-0.2177299022013894!3d44.81777614961596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55459c2d6d2b3f%3A0xf030c0d680c51fe7!2s%C3%89glise%20Notre-Dame!5e0!3m2!1sfr!2sfr!4v1701015990054!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+    <!-- 
     <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
@@ -339,7 +343,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <section class="rsvp text-center" id="rsvp">
@@ -432,23 +436,5 @@
 <script src="js/jquery.mb.YTPlayer.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdTDLgnerOLrlweVysUo-CDXJYlmbu0PM&callback=initMap"></script>
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
 </body>
 </html>
