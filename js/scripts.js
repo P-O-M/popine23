@@ -162,7 +162,7 @@ $(document).ready(function () {
             title: "Mariage de Philippine & Pierre-Olivier",
 
             // Event start date
-            start: new Date('April 20, 2024 15:30'),
+            start: new Date('April 20, 2024 15:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
@@ -172,7 +172,7 @@ $(document).ready(function () {
             end: new Date('April 21, 2024 14:00'),
 
             // Event Address
-            address: 'Château de Garde, 3 Garde, 33420 Moulon',
+            address: 'Parking du bourg, 33420 Grézillac',
 
             // Event Description
             description: "Nous sommes impatient de vous retrouver. Contactez nous si vous avez des questions sur l'organisation, Philippine 0670993648 et Pierre-Olivier 0658064680."
@@ -192,7 +192,7 @@ $(document).ready(function () {
         if (MD5($('#invite_code').val()) !== '56b2db5afb5da03ed0eded5b62960483') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Perdu !</strong> Votre code invité est mauvais. Il commence par un p et fini par un e'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbz_xqc48piBjKcGTXh6CDaVmgiPKfrcLf3Ock91MJ1eC_CVWam6E0eoZu6EmgsizOg1zA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbwrsmmilSKQenxMEa2Ca8MDJT7SiWDaIaKCtC9jZH26IITINQb7vGyxPcmMO9R0qUfOoA/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
