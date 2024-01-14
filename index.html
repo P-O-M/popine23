@@ -327,12 +327,12 @@
                     <form id="rsvp-form" class="rsvp-form"
                           action=""
                           method="POST">
-                        <div class="row">
+                          <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
-                                    <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                         placeholder="Email (facultatif)"
-                                                                         >
+                                    <i class="fa fa-user"></i><input name="prenom" class=""
+                                                                      placeholder="Prénom"
+                                                                      required>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-6">
@@ -343,20 +343,30 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                          <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
-                                    <i class="fa fa-user"></i><input name="prenom" class=""
-                                                                      placeholder="Prénom"
-                                                                      required>
+                                    <i class="fa fa-phone"></i><input type="tel" name="phone" class=""
+                                                                         placeholder="Téléphone portable"
+                                                                         >
                                 </div>
                             </div>
+                            
                             <div class="col-md-6 col-sm-6">
                                 <div class="form-input-group">
                                     <i class="fa fa-key"></i><input name="invite_code" id="invite_code"
                                                                     class=""
                                                                     placeholder="Code invité"
                                                                     required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-input-group">
+                                    <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                         placeholder="Email"
+                                                                         >
                                 </div>
                             </div>
                         </div>
